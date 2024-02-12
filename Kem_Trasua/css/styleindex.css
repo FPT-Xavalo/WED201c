@@ -1,0 +1,164 @@
+.header-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Ephesis";
+}
+.header-text {
+  flex-grow: 1;
+  width: 30%;
+  font-size: 40px;
+  color: green;
+  padding-left: 25px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.header-logo img {
+  width: 140px;
+  border: 3px solid gray;
+  border-radius: 50%;
+  height: 150px;
+}
+
+.content-menu {
+  background-color: green;
+}
+
+.content-menu ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-text {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 50px;
+  font-size: 18px;
+}
+
+.menu-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.content-img {
+  display: flex;
+}
+
+.content-img img {
+  width: 50%;
+  height: 680px;
+}
+
+.hightlight {
+  display: flex;
+  margin-top: 20px;
+  height: 410px;
+}
+
+.hightlight-img {
+  width: 30%;
+}
+
+.hightlight-img img {
+  width: 100%;
+  height: 400px;
+}
+
+.hightlight-content {
+  padding-left: 20px;
+}
+
+.hightlight-content h2 {
+  margin: 0;
+  color: rgb(180, 44, 135);
+}
+
+.hightlight-content p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+}
+
+.hightlight-content-list {
+  list-style: circle;
+  font-family: "Ephesis";
+  color: rgb(63, 170, 170);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.footer {
+  display: flex;
+  background-color: green;
+  margin-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.footer p,
+h5 {
+  color: white;
+}
+
+.order {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.menu-list {
+  width: 300px;
+  margin: 0 90px;
+}
+.menu-list-header {
+  background-color: green;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+  font-weight: 500;
+}
+.list-header-first {
+  font-size: 20px;
+}
+
+.menu-content {
+  background-color: rgb(218, 213, 213);
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 7px;
+}
+.item-price {
+  color: orange;
+  margin-right: 5px;
+}
+
+.menu-list-footer-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.order-footer-button {
+  cursor: pointer;
+  background-color: rgb(240, 115, 69);
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 10px;
+}
+
+.menu-list-footer {
+  background-color: rgb(240, 115, 69);
+  color: white;
+  padding: 15px 0;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+}
